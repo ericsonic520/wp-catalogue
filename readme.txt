@@ -45,21 +45,7 @@ This is Lite (free) version of the plugin. [Get Pro Version](http://enigmaplugin
 
 = Languages =
 
-*	English
-*	French
-*	Spanish
-*	Czech
-*	Bulgarian
-*	Dutch
-*	Italian
-*	Brazilian Portuguese
-*	Romanian
-*	Turkish
-*	German
-*	Russian
-*	Ukrainian
-*	Chinese
-*	Finnish
+English, French, Spanish, Czech, Bulgarian, Dutch, Italian, Brazilian Portuguese, Romanian, Turkish, German, Russian, Ukrainian, Chinese, Finnish, Slovak, Polish
 
 A big thank you to everyone who has helped with translation so far.
 
