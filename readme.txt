@@ -34,14 +34,16 @@ Use WP Catalogue to display your products in an attractive and professional cata
 
 = Pro vs Lite Version =
 
-This is Lite (free) version of the plugin. [Get Pro Version](http://enigmaplugins.com/plugins/wp-catalogue-pro/) if you need the following advanced features:
+This is Free version of the plugin. [Get Pro Version](http://enigmaplugins.com/plugins/wp-catalogue-pro/) if you need the following advanced features:
 
 *	Better handling of various level categories/sub-categories
 *	Shortcode functions to embed specific categories/sub-categories
 *	Fully Responsive design
-*	On/off for side menu
+*	UNLIMITED product images
+*	On/off for side menu plus NEW accordion menu
 *	Product Description title replaced with true product titles (optional)
 *	Featured Product function
+*	Supports custom fields
 
 = Languages =
 
@@ -71,15 +73,19 @@ Please go to Settings > Permalinks and resave your permalink structure.
 
 = How can I customise the design? =
 
-You can do some basic presentation adjustments via WP Catalogue > Settings. Beyond this, you can completely customise the design via your theme css. 
+You can do some basic presentation adjustments via WP Catalogue > Settings. Beyond this, you can completely customise the design via your theme css. You can use !important attribute to override the plugin css if needed.
+
+= What are the Inner Page Header and Footer fields in Settings for? =
+
+In some themes the WP Catalogue does not know which page template to use for inner pages of the catalogue. You can fix this on the Settings screen by manually adding your Inner Template Header and Inner Template Footer. There are several threads in the support forum with specific examples so please run a search. Or check the [documentation here.](http://enigmaplugins.com/inner-pages-broken/)
+
+= My main catalogue page works fine but the inner pages are broken =
+
+Please see previous FAQ point.
 
 = The layout is broken =
 
 It's most likely just a matter of tweaking the css. In particular check the width of the right column that holds the catalogue items as this is the most common cause of layout issues. Remember, if you want to make changes to how the catalogue displays you need to do it in your theme css not in the plugin css. You can use the !important attribute to override the plugin css.
-
-= My main catalogue page works fine but the inner pages are broken =
-
-This sometimes happens if the catalogue doesn't know which page template to use. You can fix this on the Settings Screen by manually adding your Inner Template Header and Inner Template Footer. If you're confused, take a look at the plugin file single-wpcproduct.php which is in /themefiles and you'll see where this code will end up (at the top and bottom of the file, with the WP Catalogue content sitting within it). There are also several threads in the support forum with specific examples so please run a search.
 
 = Can I use WP Catalogue in my Language? =
 
