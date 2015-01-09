@@ -4,7 +4,7 @@ Plugin Name: WP Catalogue
 Plugin URI: http://www.wordpress.org/extend/plugins/wp-catalogue/
 Description: Display your products in an attractive and professional catalogue. It's easy to use, easy to customise, and lets you show off your products in style.
 Author: Maeve Lander
-Version: 1.7.3
+Version: 1.7.4
 Author URI: http://www.enigmaweb.com.au
 */
 //creating db tables
@@ -89,7 +89,6 @@ add_action( 'admin_init', 'register_catalogue_settings' );
 $plugin_dir_path = dirname(__FILE__);
 
 function register_catalogue_settings() {
-    update_option('posts_per_page',get_option('pagination'));
     register_setting( 'baw-settings-group', 'grid_rows' );
     register_setting( 'baw-settings-group', 'templateColorforProducts' );  // new added color picker
     register_setting( 'baw-settings-group', 'pagination' );
