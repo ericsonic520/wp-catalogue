@@ -90,6 +90,7 @@ It's most likely just a matter of tweaking the css. In particular check the widt
 = Can I use WP Catalogue in my Language? =
 
 Yes, the plugin is internationalized and ready for translation. If you would like to help with a translation please [contact me](http://www.enigmaweb.com.au/contact)
+You can also use it WPML. After installing and activating both plugins, go to WPML > Translation Management > Multilangual Content Setup > scroll all the way down > tick the checkbox 'custom posts' and 'custom taxanomies' for this post type, set to 'Translate'.
 
 = Can import/export my catalogue? =
 
